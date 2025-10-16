@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import logo from '../assets/logo-vidaplus.png';
 
 export default function DashboardAdmin() {
   const navigate = useNavigate();
@@ -22,7 +23,7 @@ export default function DashboardAdmin() {
       {/* Logo e título */}
       <div style={{ textAlign: "center", marginBottom: "24px" }}>
         <img
-          src="/logo-vidaplus.png" // coloque aqui o caminho real do seu logo
+          src={logo}
           alt="VidaPlus Logo"
           style={{ width: "120px", marginBottom: "8px" }}
         />
